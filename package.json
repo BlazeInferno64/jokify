@@ -1,0 +1,47 @@
+{
+  "name": "jokify",
+  "version": "1.0.5",
+  "description": "Random funny dadjokes fetcher",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "dadjokes",
+    "jokify",
+    "axios",
+    "blazed.js",
+    "dadjoke",
+    "blazed",
+    "netport",
+    "readtastic",
+    "node-fetch",
+    "joke",
+    "jokes"
+  ],
+  "jest": {
+    "testMatch": [
+      "**/test/**/*.js"
+    ]
+  },
+  "author": "BlazeInferno64",
+  "types": "types/jokify.d.ts",
+  "license": "MIT",
+  "homepage": "https://github.com/blazeinferno64/jokify#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blazeinferno64/jokify.git"
+  },
+  "type": "commonjs",
+  "dependencies": {
+    "blazed.js": "^2.0.5"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.23.0",
+    "@jest/globals": "^29.7.0",
+    "eslint": "^9.23.0",
+    "globals": "^16.0.0",
+    "jest": "^29.7.0",
+    "typescript-eslint": "^8.29.0"
+  }
+}
