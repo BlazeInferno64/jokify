@@ -2,7 +2,7 @@
 //
 // Author(s) -> BlazeInferno64
 //
-// Last updated: 03/04/2024
+// Last updated: 12/04/2024
 
 "use strict";
 
@@ -37,6 +37,7 @@ const getJoke = async () => {
     return {
         joke: response.data.joke,
         status: response.status,
+        statusText: response.statusText,
         id: response.data.id
     }
 }

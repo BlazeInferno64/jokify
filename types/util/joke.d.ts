@@ -2,7 +2,7 @@
 //
 // Author(s) -> BlazeInferno64
 //
-// Last updated: 03/04/2025
+// Last updated: 12/04/2025
 
 // Type definitions for 'jokify'
 
@@ -15,5 +15,6 @@
 export function getJoke(): Promise<{
     joke: any;
     status: number;
+    statusText: number;
     id: any;
 }>;

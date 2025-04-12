@@ -1,6 +1,6 @@
 {
   "name": "jokify",
-  "version": "1.0.5",
+  "version": "1.1.0",
   "description": "Random funny dadjokes fetcher",
   "main": "index.js",
   "scripts": {
@@ -34,7 +34,7 @@
   },
   "type": "commonjs",
   "dependencies": {
-    "blazed.js": "^2.0.5"
+    "blazed.js": "^2.1.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.23.0",
